@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: chocolate;
+    background-color: white;
+    margin: 0 40%;
+
+}
+p {
+    color: blueviolet;
+    text-align: center;
+    font-size: 24px;
+}
+.muki{
+    background-color: yellow;
+    height: 50px;
+    padding: 20px;
+    font-size: 25px;
+}
+.par{
+    background-color: tomato;
+    margin: 20px 0;
+    font-size: 25px;
+    padding: 30px;
+    color: rgb(14, 233, 124)
+}
+body {
+    background-color: black;
+}
