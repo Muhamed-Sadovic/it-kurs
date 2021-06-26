@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+.sivaa{
+    background-color: gray;
+    margin-left: 8%;
+    width: 84%;
+    height: 550px;
+}
+.divovi{
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 32%;
+    height: 520px;
+    float: left; 
+}
+.zel{
+    border-top: 4px solid green;
+    border-bottom: 4px solid green;
+}
+.ljub{
+    border-top: 4px solid purple;
+    border-bottom: 4px solid purple;
+}
+.plava{
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+}
+table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #ededed;
+}
+td{
+    padding: 10px;
+}
+tr{
+    margin: 0;
+}
+.basic{
+    color: green;
+    height: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.dd1{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.standard{
+    color: purple;
+    height: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.dd2{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.premium{
+    color: blue;
+    height: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.dd3{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+.button1{
+    margin-left: 38%;
+    margin-top: 15%;
+    height: 35px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 90px;
+    cursor: pointer;
+}
+.button2{
+    margin-left: 38%;
+    margin-top: 15%;
+    height: 35px;
+    color: purple;
+    border: 2px solid purple;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 90px;
+    cursor: pointer;
+}
+.button3{
+    margin-left: 38%;
+    margin-top: 15%;
+    height: 35px;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 3px;
+    font-size: 15px;
+    width: 90px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: green;
+    color: white;
+    transition: 0.7s;
+}
+.button2:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.7s;
+}
+.button3:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.7s;
+}
+
+
