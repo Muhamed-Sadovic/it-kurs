@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dugmici.css">
+</head>
+<body>
+    
+    <div class="tabla">
+        <div class="dugmici">
+            <button class="crvena fnt" id="pl">Tab 1</button>
+            <button class="plava fnt" id="cr">Tab 2</button>
+            <button class="zuta fnt" id="zu">Tab 3</button>
+        </div>
+        <div class="prprostor" id="myDIV">
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("pl").onclick=function(){
+            document.getElementById("myDIV").style.backgroundColor="red";
+            document.getElementById("myDIV").classList.add("vecifont");
+            document.getElementById("myDIV").innerHTML="Tab 1";
+        }
+        document.getElementById("cr").onclick=function(){
+            document.getElementById("myDIV").style.backgroundColor="blue";
+            document.getElementById("myDIV").classList.add("vecifont");
+            document.getElementById("myDIV").innerHTML="Tab 2";
+        }
+        document.getElementById("zu").onclick=function(){
+            document.getElementById("myDIV").style.backgroundColor="yellow";
+            document.getElementById("myDIV").classList.add("vecifont");
+            document.getElementById("myDIV").innerHTML="Tab 3";
+        }
+    </script>
+</body>
+</html>
