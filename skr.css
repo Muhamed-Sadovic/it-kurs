@@ -46,7 +46,7 @@ h1{
     color: white;
 }
 span{
-    color: yellow
+    color: yellow;
 }
 p{
     color: gray;
@@ -55,11 +55,13 @@ p{
 input[type=text]{
     width: 60%;
     padding: 15px;
+    border: none;
     border-radius: 20px;
 }
 button{
     background-color: yellow;
     color: black;
+    border: none;
     border-radius: 30px;
     width: 80px;
     height: 40px;
