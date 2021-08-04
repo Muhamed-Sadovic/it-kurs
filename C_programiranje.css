@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.levo{
+    width: 20%;
+    height: 520px;
+    background-color: rgb(75, 73, 73);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.levo1{
+    width: 80%;
+    height: 500px;  
+}
+a:link{
+    color: red;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    color: red;
+    padding: 2px;
+}
+.lista{
+    margin-left: 30px;
+}
+.desno{
+    width: 60%;
+    height: 520px;
+    float: left;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    color: red;
+}
+hr{
+    color: gray;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table th{
+    background-color: red;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+table td{
+    padding: 15px;
+}
+tr:nth-child(even){
+    background-color: rgb(187, 179, 179);
+}
+footer{
+    width: 80%;
+    height: 50px;
+    background-color: red;
+    float: left;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+@media(max-width: 884px){
+    h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 659px){
+    .levo,.desno,footer{
+        width: 100%;
+        float: left;
+    }
+    .levo1{
+        align-items: center;
+        margin: 0 200px;
+    }
+    ul{
+        font-size: 16px;
+    }
+}
