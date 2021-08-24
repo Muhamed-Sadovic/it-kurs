@@ -1,6 +1,6 @@
 function maskify(cc){
-    let taraba = ""
     let cetiribroja = cc.slice(-4)
+    let taraba = ""
     for(let i=0;i<cc.length-4;i++){
         taraba += "#"
     } 
